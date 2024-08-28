@@ -1,0 +1,29 @@
+/**
+AUTORES: JUAN ESTEBAN RAMIREZ AGUIRRE
+SEBASTIAN PEREZ GARCIA
+SEBASTIAN CHAVARRIA JARAMILLO
+JOSTY MARIN HENAO
+MELANIE USUGA BAENA
+SHEYRA CUEVAS BELLO
+**/
+using System;
+class Corredores {
+	static void Main() {
+		int numero=Int32.Parse(Console.ReadLine());
+		if (numero==1) {
+			Console.WriteLine("Eres el campeon U no");
+		} else {
+			if(numero>1 & numero<3) {
+				Console.WriteLine("Animo,animo,animo");
+			} else {
+				if(numero>=3) {
+					if(numero==3) {
+						Console.WriteLine("El pueblo esta contigo tres");
+					}
+					Console.WriteLine("tu puedes, tu puedes");
+
+				}
+			}
+		}
+	}
+}
